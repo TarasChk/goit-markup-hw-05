@@ -227,9 +227,9 @@ p {
     color: var(--accent-elements-color);
 }
 
-/* .active-link::after:hover {
+.active-link::after:hover {
     border: 1px solid #000000;
-    border-radius: 4px; */
+    border-radius: 4px;
 
 /* Hero Index style */
 
@@ -653,7 +653,7 @@ p {
     display: block;      
 }
 
-/* .works-overlay-box {
+.works-overlay-box {
         position: relative;
         width: 370px;
         height: 294px;
@@ -686,7 +686,7 @@ p {
         letter-spacing: 0.03em;    
         color: #FFFFFF;
         padding: 63px 24px;
-} */
+}
 
 .works-title {        
         font-size: 18px;
