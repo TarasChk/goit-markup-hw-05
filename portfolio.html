@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body class="body">
+
+    <header class="header">
+        <div class="container header-container">
+        <a href="./index.html" class="logo-header logo-retreat link"><span class="logo-web">Web</span><span class="logo-studio">Studio</span></a>
+        <nav class="header-nav">            
+            <ul class="header-list header-size list">
+                <li class="header-list-item"><a class="header-list-link link" href="./index.html">Студія</a></li>
+                <li class="header-list-item"><a class="header-list-link link active-link" href="#">Портфоліо</a></li>
+                <li class="header-list-item"><a class="header-list-link link" href="#">Контакти</a></li>
+            </ul>
+        </nav>
+        <ul class="header-size list">
+            <li class="header-list-item">                
+                <a class="header-mail-link link" href="mailto:info@devstudio.com"><svg class="icon-contact link" width="20" height="16">
+                <use href="./img/icons.svg/symbol-defs-mod.svg#icon-cont-envelope">
+                </use>
+                </svg>info@devstudio.com</a>
+            </li>
+            <li class="header-list-item">                
+                <a class="header-tel-link link" href="tel:+380961111111"><svg class="icon-contact link" width="20" height="16">
+                    <use href="./img/icons.svg/symbol-defs-mod.svg#icon-cont-smartphone">
+                    </use>
+                </svg>+38 096 111 11 11</a>
+            </li>
+        </ul>  
+        </div>
+    </header>
+
+    <main>
+        <section class="portfolio">
+            <div class="container">
+            <h1 class="visually-hidden">Портфоліо</h1>
+                <ul class="list-button list" >
+                    <li class="list-btn-size"><button class="list-button-item pointer" type="button">Усі</button></li>
+                    <li class="list-btn-size"><button class="list-button-item pointer" type="button">Веб-сайти</button></li>
+                    <li class="list-btn-size"><button class="list-button-item pointer" type="button">Додатки</button></li>
+                    <li class="list-btn-size"><button class="list-button-item pointer" type="button">Дизайн</button></li>
+                    <li class="list-btn-size"><button class="list-button-item pointer" type="button">Маркетинг</button></li>
+                </ul>            
+            
+                <ul class="works-list list">
+                    <li class="">  
+                        <div class="works-overlay-box">                    
+                         <a class="works-box link" href="#">
+                         <img class="works-image" src="./img/work-tehno.jpg" alt="головна сторінка сайту на ноутбуці" width="370" height="294">
+                         <!-- <div class="works-overlay">
+                            <p>Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати
+                            вичерпні відомості про компанію чи приватну особу.</p>
+                         </div> -->
+                        </div>
+                        <div class="works-margin">                       
+                        <h2 class="works-title">Технокряк</h2>
+                        <p class="works-object">Веб-сайт</p>
+                        </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="works-box link" href="#">
+                        <img class="works-image" src="./img/work-poster.jpg" alt="зобреження двох баскетболістів з м'ячем" width="370" height="294">
+                        <div class="works-margin">
+                        <h2 class="works-title">Постер New Orlean vs Golden Star</h2>
+                        <p class="works-object">Дизайн</p>
+                        </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="works-box link" href="#">
+                        <img class="works-image" src="./img/work-restorant.jpg" alt="постер ресторану морських делікатесів" width="370" height="294">
+                        <div class="works-margin">
+                        <h2 class="works-title">Ресторан Seafood</h2>
+                        <p class="works-object">Додаток</p>
+                        </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="works-box link" href="#">
+                        <img class="works-image" src="./img/work-prime.jpg" alt="зображення навушників" width="370" height="294">
+                        <div class="works-margin">
+                        <h2 class="works-title">Проєкт Prime<h2>
+                        <p class="works-object">Маркетинг</p>
+                        </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="works-box link" href="#">
+                        <img class="works-image" src="./img/work-boxes.jpg" alt="зображення двох коробок" width="370" height="294">
+                        <div class="works-margin">
+                        <h2 class="works-title">Проєкт Boxes</h2>
+                        <p class="works-object">Додаток</p>
+                    </div>
+                    </a>
+                    </li>
+                    <li>
+                        <a class="works-box link" href="#">
+                        <img class="works-image" src="./img/work-inspiration.jpg" alt="на дисплеї ноутбука зображення сайту з чорною темою оформлення" width="370" height="294">
+                        <div class="works-margin">
+                        <h2 class="works-title">Inspiration has no Borders</h2>
+                        <p class="works-object">Веб-сайт</p>
+                    </div>
+                    </a>
+                    </li>
+                    <li>
+                        <a class="works-box link" href="#">
+                        <img class="works-image" src="./img/work-publishing.jpg" alt="відкрита книга" width="370" height="294">
+                        <div class="works-margin">
+                        <h2 class="works-title">Видання Limited Edition</h2>
+                        <p class="works-object">Дизайн</p>
+                        </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="works-box link" href="#">
+                        <img class="works-image" src="./img/work-lab.jpg" alt="зображення ярлика" width="370" height="294">
+                        <div class="works-margin">
+                        <h2 class="works-title">Проєкт LAB</h2>
+                        <p class="works-object">Маркетинг</p>
+                        </div>
+                        </a>
+                    </li>
+                    <li>                        
+                        <a class="works-box link" href="#">
+                        <img class="works-image" src="./img/work-grow-bisness.jpg" alt="дісплей з зображенням бізнесовго логотипу" width="370" height="294">
+                        <div class="works-margin">
+                        <h2 class="works-title">Growing Business</h2>
+                        <p class="works-object">Додаток</p>
+                        </div>
+                        </a>
+                    </li>
+                </ul> 
+                </div>
+        </section> 
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-net">
+            <div class="footer-contact">
+                <a href="./index.html" class="logo-footer logo-header link"><span class="logo-web">Web</span><span
+                        class="logo-studio-footer">Studio</span></a>
+                <address>
+                    <ul class="list">
+                        <li class="list-item">
+                            <a class="adress-link link" href="https://goo.gl/maps/n5b4QtneqCqX9fJA9">м. Київ, пр-т Лесі
+                                Українки, 26</a>
+                        </li>
+                        <li class="list-item">
+                            <a class="adr-link adre-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                        </li>
+                        <li class="list-item">
+                            <a class="adr-link a-link link" href="tel:+380961111111">+38 096 111 11 11</a>
+                        </li>
+                    </ul>
+                </address>
+            </div>
+            <div class="net">
+                <strong class="net-title list">Приєднуйтесь</strong>
+                <ul class="net-list list">
+                    <li class="footer-margian">
+                        <a href="#" class="net-icon">
+                            <svg class="footer-icon" width="20" height="20">
+                                <use href="./img/icons.svg/symbol-defs-mod.svg#icon-footer-instagram">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-margian">
+                        <a href="#" class="net-icon">
+                            <svg class="footer-icon" width="20" height="20">
+                                <use href="./img/icons.svg/symbol-defs-mod.svg#icon-footer-twitter">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-margian">
+                        <a href="#" class="net-icon">
+                            <svg class="footer-icon" width="20" height="20">
+                                <use href="./img/icons.svg/symbol-defs-mod.svg#icon-footer-facebook">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-margian">
+                        <a href="#" class="net-icon">
+                            <svg class="footer-icon" width="20" height="20">
+                                <use href="./img/icons.svg/symbol-defs-mod.svg#icon-pikt-linkedin">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
